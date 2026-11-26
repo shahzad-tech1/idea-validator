@@ -1,0 +1,15 @@
+ruff
+mypy
+pytest
+pytest-cov
+pydantic
+fastapi[standard]
+uvicorn
+httpx
+sqlalchemy
+alembic
+psycopg2-binary
+redis
+qdrant-client
+sentence-transformers
+python-dotenv
