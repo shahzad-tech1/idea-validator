@@ -1,0 +1,41 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+
+# Node
+node_modules/
+.next/
+
+# Docker
+*.tar
+
+# Model weights (too large for git — use releases)
+*.gguf
+*.bin
+*.safetensors
+
+# Logs & traces
+logs/
+*.log
+traces/
+
+# PDFs
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
